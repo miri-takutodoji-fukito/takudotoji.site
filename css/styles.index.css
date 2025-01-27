@@ -235,10 +235,15 @@ h1.sectionhead {
   }
 }
 @media (max-width: 700px) {
+  .list {
+    justify-content: center;
+    align-items: center;
+  }
   .listside {
     max-width: none;
     width: 100%;
     justify-content: center;
+    align-items: center;
   }
 }
 
