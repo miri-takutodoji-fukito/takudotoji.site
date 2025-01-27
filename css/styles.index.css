@@ -237,7 +237,7 @@ h1.sectionhead {
 @media (max-width: 700px) {
   .listside {
     max-width: none;
-    width: 90%;
+    width: 100%;
     justify-content: center;
   }
 }
