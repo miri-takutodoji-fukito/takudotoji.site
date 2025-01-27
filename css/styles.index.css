@@ -239,11 +239,15 @@ h1.sectionhead {
     /* justify-content: center; */
     align-items: center;
   }
-  .listside {
-    /* max-width: 90%; */
+  .left.listside,
+  .right.listside {
+    max-width: none;
     width: 90%;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+  }
+  .listitem {
+    width: 100%;
   }
 }
 
