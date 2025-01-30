@@ -283,7 +283,7 @@ h1.sectionhead {
   border-radius: 100%;
   scale: 0.8;
   opacity: 0;
-  width: 100%;
+  width: 90%;
   margin: 10px;
   box-shadow: 10px 15px 10px rgba(201, 190, 190, 0.6);
   animation: appear3 linear forwards;
