@@ -1,6 +1,6 @@
-html {
-  /* scroll-snap-type: y proximity; */
-}
+/* html {
+  scroll-snap-type: y proximity;
+} */
 * {
   padding: 0;
   margin: 0;
@@ -161,6 +161,25 @@ main {
   .elementcontainer.profile img {
     width: 90%;
   }
+}
+
+.elementcontainer.contact {
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.elementcontainer.contact .contacts {
+  align-items: center;
+  gap: 15px;
+}
+.elementcontainer.contact .contacts a i {
+  font-size: 30px;
+}
+.elementcontainer.contact .contacts a i:hover {
+  color: rgb(182, 135, 135);
+  cursor: pointer;
 }
 
 h1.sectionhead {
