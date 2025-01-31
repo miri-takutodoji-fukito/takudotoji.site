@@ -1,3 +1,6 @@
+html {
+  /* scroll-snap-type: y proximity; */
+}
 * {
   padding: 0;
   margin: 0;
@@ -103,6 +106,7 @@ main {
   animation-timeline: view();
   animation-range-start: 10%;
   animation-range-end: 90%;
+  /* scroll-snap-align: center; */
 }
 @keyframes appear1 {
   0% {
@@ -206,6 +210,7 @@ h1.sectionhead {
   animation-timeline: view();
   animation-range-start: 10%;
   animation-range-end: 90%;
+  /* scroll-snap-align: center; */
 }
 .listitem img {
   width: 80%;
