@@ -40,6 +40,16 @@ span a:hover {
   height: var(--height);
 }
 
+.wakatimebadge img {
+  margin: 5px;
+  scale: 1.1;
+}
+
+.listitem .wakatimebadge img {
+  border-radius: 0;
+  scale: 1.2;
+}
+
 main {
   padding: 5vw;
   width: 100%;
@@ -99,7 +109,7 @@ main {
   height: fit-content;
   max-width: 1080px;
   border-radius: 15px;
-  background: rgb(223, 211, 211, 0.3);
+  background: hwb(0 83% 13% / 0.3);
   box-shadow: 10px 15px 10px rgba(201, 190, 190, 0.6);
   animation: appear1 linear forwards;
   animation-timeline: view();
